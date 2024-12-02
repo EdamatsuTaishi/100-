@@ -1,13 +1,6 @@
 #1-5
 def generate_ngram_from_text(text, n, mode="word",):
-    """
-    テキストからn-gramを生成する関数
-    :param text: 入力テキスト（文字列）
-    :param n: n-gramのサイズ
-    :param mode: "word" で単語 n-gram, "char" で文字 n-gram
-    :param include_space: True で空白を含む, False で空白を無視
-    :return: n-gramのリスト
-    """
+    
     if mode == "word":
         # 単語単位のn-gramを生成
         sequence = text.split()
